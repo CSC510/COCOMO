@@ -409,6 +409,22 @@ def improveTeam(): return dict(
 @rx
 def reduceQuality():  return dict(
   rely = [1], docu=[1], time = [3], cplx = [1])
+  
+#Treatment added by Jesse  Start from Here
+@rx
+def perfectTeam():  return dict(
+  acap=[5],pcap=[5],pcon=[5], aexp=[5], pexp=[5], ltex=[5],Prec=[5], Team = [5],tool=[5])
+@rx
+def perfectProduct():  return dict(
+  rely = [5], docu=[5], data = [5], cplx = [5],ruse=[5],time=[5],stor=[5],pvol=[5])  
+@rx
+def easyTaskExtendDeadline():  return dict(
+  rely = [1], docu=[1], stor = [3], cplx = [1],data=[2],nkloc=[0.1])
+  
+@rx
+def improvePlatformandPersonnel():  return dict(
+   time=[3],stor=[3],pvol=[2],tool=[5], site=[6],acap=[5],pcap=[5],pcon=[5], aexp=[5], pexp=[5], ltex=[5],Prec=[5], Team = [5],rely=[1],cplx=[1],Pmat=[1])
+
 """
 
 ### Under the Hood: Complete-ing the Ranges.

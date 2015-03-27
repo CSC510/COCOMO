@@ -1,0 +1,127 @@
+
+==| _complete |========================================
+
+{'sced': 3, 'cplx': 6, 'site': 5, 'Prec': 2, 'Pmat': 2, 'acap': 4, 'Flex': 4, 'rely': 5, 'data': 2, 'tool': 2, 'pexp': 4, 'pcon': 3, 'aexp': 2, 'stor': 3, 'docu': 3, 'Team': 4, 'pcap': 3, 'kloc': 395, 'ltex': 4, 'ruse': 2, 'Resl': 1, 'time': 4, 'pvol': 5}
+{'sced': 3, 'cplx': 3, 'site': 3, 'Prec': 1, 'Pmat': 2, 'acap': 4, 'Flex': 3, 'rely': 3, 'data': 2, 'tool': 2, 'pexp': 2, 'pcon': 2, 'aexp': 2, 'stor': 4, 'docu': 3, 'Team': 4, 'pcap': 3, 'kloc': 414, 'ltex': 4, 'ruse': 2, 'Resl': 2, 'time': 4, 'pvol': 4}
+{'sced': 3, 'cplx': 4, 'site': 5, 'Prec': 4, 'Pmat': 2, 'acap': 4, 'Flex': 5, 'rely': 5, 'data': 3, 'tool': 2, 'pexp': 1, 'pcon': 2, 'aexp': 4, 'stor': 3, 'docu': 1, 'Team': 3, 'pcap': 5, 'kloc': 284, 'ltex': 2, 'ruse': 4, 'Resl': 3, 'time': 4, 'pvol': 4}
+{'sced': 3, 'cplx': 4, 'site': 1, 'Prec': 1, 'Pmat': 3, 'acap': 5, 'Flex': 3, 'rely': 4, 'data': 2, 'tool': 2, 'pexp': 4, 'pcon': 4, 'aexp': 4, 'stor': 4, 'docu': 2, 'Team': 3, 'pcap': 5, 'kloc': 244, 'ltex': 2, 'ruse': 3, 'Resl': 3, 'time': 4, 'pvol': 2}
+
+{'sced': 3, 'cplx': 6, 'site': 6, 'Prec': 4, 'Pmat': 3, 'acap': 4, 'Flex': 3, 'rely': 4, 'data': 2, 'tool': 2, 'pexp': 3, 'pcon': 1, 'aexp': 5, 'stor': 3, 'docu': 2, 'Team': 2, 'pcap': 4, 'kloc': 263, 'ltex': 3, 'ruse': 4, 'Resl': 1, 'time': 3, 'pvol': 2} {'nkloc': [0.5], 'data': [2]}
+{'sced': 3, 'cplx': 6, 'site': 5, 'Prec': 4, 'Pmat': 3, 'acap': 3, 'Flex': 5, 'rely': 5, 'data': 2, 'tool': 2, 'pexp': 1, 'pcon': 4, 'aexp': 2, 'stor': 3, 'docu': 4, 'Team': 2, 'pcap': 3, 'kloc': 72, 'ltex': 3, 'ruse': 2, 'Resl': 2, 'time': 4, 'pvol': 3} {'nkloc': [0.5], 'data': [2]}
+{'sced': 3, 'cplx': 4, 'site': 1, 'Prec': 2, 'Pmat': 2, 'acap': 3, 'Flex': 1, 'rely': 5, 'data': 3, 'tool': 2, 'pexp': 3, 'pcon': 5, 'aexp': 2, 'stor': 3, 'docu': 1, 'Team': 4, 'pcap': 3, 'kloc': 296, 'ltex': 3, 'ruse': 4, 'Resl': 2, 'time': 4, 'pvol': 5} {'nkloc': [0.5], 'data': [2]}
+{'sced': 3, 'cplx': 3, 'site': 4, 'Prec': 2, 'Pmat': 3, 'acap': 3, 'Flex': 4, 'rely': 3, 'data': 2, 'tool': 2, 'pexp': 4, 'pcon': 2, 'aexp': 5, 'stor': 3, 'docu': 5, 'Team': 4, 'pcap': 4, 'kloc': 110, 'ltex': 1, 'ruse': 6, 'Resl': 1, 'time': 4, 'pvol': 5} {'nkloc': [0.5], 'data': [2]}
+
+==| _sample1 |========================================
+
+rank | rx                        | median  |                                                                             
+==== | ==                        | ======= |                                                                             
+1    | ('flight', 'doNothing')   |  2867.1 | ( --*           |              ),   32.6,  1246.3,  2867.1,  4689.0,  8824.7
+2    | ('anything', 'doNothing') |  7686.0 | (   ----*----   |              ),   17.1,  3016.9,  7686.0, 13472.5, 28378.9
+
+==| _efforts |========================================
+
+rank | rx                        | median  |                                                                             
+==== | ==                        | ======= |                                                                             
+1    | ('osp2', 'doNothing')     |   797.6 | ( *             |              ),  515.3,   683.7,   797.6,   923.9,  1141.1
+2    | ('osp', 'doNothing')      |  1305.4 | ( *             |              ),  674.3,  1086.6,  1305.4,  1547.8,  2093.6
+3    | ('ground', 'doNothing')   |  2672.5 | ( -*            |              ),   33.9,  1157.9,  2737.0,  4384.5,  7827.1
+3    | ('flight', 'doNothing')   |  2812.7 | ( -*-           |              ),   33.9,  1100.9,  2812.7,  4640.7,  8130.1
+4    | ('anything', 'doNothing') |  7642.3 | (   ---*----    |              ),   17.6,  3330.3,  7642.3, 14020.5, 28579.6
+
+==| _effortsTreated |========================================
+
+
+####  flight   ################################################## 
+
+rank | rx                                                        | median  |                                                                             
+==== | ==                                                        | ======= |                                                                             
+1    | ('flight', 'easyTaskExtendDeadline')                      |   143.8 | (*              |              ),    1.8,    55.2,   143.8,   238.2,   387.2
+2    | ('flight', 'reduceFunctionality')                         |  1209.2 | ( --*-          |              ),   13.7,   510.7,  1209.2,  1937.1,  3449.1
+3    | ('flight', 'improvePlatformandPersonnel')                 |  1985.5 | (   ---*---     |              ),   30.0,  1104.0,  2527.5,  4153.7,  8148.5
+3    | ('flight', 'perfectTeam')                                 |  2133.7 | (  ---*---      |              ),   36.2,   956.8,  2133.7,  3412.3,  5756.3
+3    | ('flight', 'improvePrecendentnessDevelopmentFlexibility') |  2253.1 | (   ---*--      |              ),   30.1,  1000.3,  2253.1,  3651.3,  6085.9
+3    | ('flight', 'increaseArchitecturalAnalysisRiskResolution') |  2542.9 | (   ---*---     |              ),   36.7,  1132.1,  2542.9,  4026.4,  7003.7
+3    | ('flight', 'improveTeam')                                 |  2566.9 | (   ---*---     |              ),   36.1,  1212.3,  2566.9,  4093.8,  7405.4
+3    | ('flight', 'improveProcessMaturity')                      |  2599.0 | (   ----*---    |              ),   32.3,  1105.7,  2599.0,  4499.6,  8454.3
+3    | ('flight', 'improveToolsTechniquesPlatform')              |  2605.9 | (   ----*---    |              ),   33.2,  1155.7,  2605.9,  4339.5,  8552.6
+3    | ('flight', 'improvePersonnel')                            |  2741.1 | (   ----*---    |              ),   39.8,  1172.6,  2741.1,  4404.8,  7982.4
+3    | ('flight', 'relaxSchedule')                               |  2768.1 | (   ----*---    |              ),   33.5,  1293.1,  2768.1,  4548.7,  9001.8
+3    | ('flight', 'doNothing')                                   |  2850.6 | (   ----*----   |              ),   31.9,  1242.8,  2850.6,  4736.2,  8959.5
+3    | ('flight', 'perfectProduct')                              |  2882.8 | (   ----*----   |              ),   38.1,  1193.6,  2882.8,  4846.0,  8852.9
+3    | ('flight', 'reduceQuality')                               |  2960.0 | (   ----*----   |              ),   35.1,  1223.5,  2960.0,  4715.9,  8884.7
+
+####  ground   ################################################## 
+
+rank | rx                                                        | median  |                                                                             
+==== | ==                                                        | ======= |                                                                             
+1    | ('ground', 'easyTaskExtendDeadline')                      |   137.0 | (*              |              ),    3.3,    63.2,   137.0,   222.5,   349.2
+2    | ('ground', 'reduceFunctionality')                         |   950.6 | ( --*-          |              ),   25.8,   391.4,   950.6,  1638.6,  3063.7
+3    | ('ground', 'improvePlatformandPersonnel')                 |  1757.1 | (   ----*---    |              ),   51.6,  1023.3,  2267.4,  3734.3,  7073.4
+3    | ('ground', 'perfectTeam')                                 |  1999.9 | (   ---*---     |              ),   53.7,   928.1,  1999.9,  3160.1,  5253.0
+3    | ('ground', 'improvePrecendentnessDevelopmentFlexibility') |  2008.5 | (   ---*---     |              ),   54.3,   908.0,  2008.5,  3268.5,  5465.6
+3    | ('ground', 'increaseArchitecturalAnalysisRiskResolution') |  2076.3 | (   ---*----    |              ),   57.6,   957.2,  2076.3,  3513.4,  5973.9
+3    | ('ground', 'improveTeam')                                 |  2267.2 | (   ----*---    |              ),   59.5,  1026.8,  2267.2,  3713.3,  6400.8
+3    | ('ground', 'doNothing')                                   |  2386.0 | (   ----*-----  |              ),   64.3,  1066.8,  2386.0,  4164.5,  7658.6
+3    | ('ground', 'reduceQuality')                               |  2387.4 | (   ----*----   |              ),   59.9,  1087.8,  2387.4,  4015.8,  7251.1
+3    | ('ground', 'improvePersonnel')                            |  2431.1 | (   ----*----   |              ),   53.9,  1039.0,  2431.1,  4029.9,  7391.5
+3    | ('ground', 'relaxSchedule')                               |  2512.5 | (    ----*---   |              ),   65.8,  1157.1,  2512.5,  4052.0,  7700.0
+3    | ('ground', 'improveProcessMaturity')                      |  2531.1 | (   -----*----  |              ),   59.0,  1129.7,  2531.1,  4157.5,  7516.0
+3    | ('ground', 'improveToolsTechniquesPlatform')              |  2568.0 | (   -----*---   |              ),   67.5,  1026.2,  2568.0,  4000.2,  7523.2
+3    | ('ground', 'perfectProduct')                              |  2747.1 | (    ----*----  |              ),   62.1,  1346.9,  2747.1,  4306.5,  7801.1
+
+####  osp   ################################################## 
+
+rank | rx                                                     | median  |                                                                             
+==== | ==                                                     | ======= |                                                                             
+1    | ('osp', 'easyTaskExtendDeadline')                      |    62.3 | (*              |              ),   38.1,    51.8,    62.3,    71.9,    89.3
+2    | ('osp', 'reduceFunctionality')                         |   522.3 | (     -*        |              ),  286.9,   434.8,   522.3,   608.3,   792.9
+3    | ('osp', 'improvePrecendentnessDevelopmentFlexibility') |  1210.5 | (             --|*--           ),  691.0,  1072.6,  1285.7,  1522.3,  2042.6
+3    | ('osp', 'improveToolsTechniquesPlatform')              |  1261.3 | (             --|*-            ),  705.9,  1057.3,  1261.3,  1492.8,  1992.3
+3    | ('osp', 'improveTeam')                                 |  1267.7 | (             --|*--           ),  749.1,  1088.5,  1267.7,  1517.3,  2036.7
+3    | ('osp', 'perfectProduct')                              |  1277.1 | (             --|*--           ),  727.6,  1068.6,  1277.1,  1518.6,  2075.2
+3    | ('osp', 'increaseArchitecturalAnalysisRiskResolution') |  1298.4 | (             --|*--           ),  691.0,  1087.6,  1298.4,  1539.7,  2039.6
+3    | ('osp', 'improvePersonnel')                            |  1298.6 | (             --|*--           ),  712.6,  1085.8,  1298.6,  1539.3,  2105.1
+3    | ('osp', 'improveProcessMaturity')                      |  1298.7 | (             --|*--           ),  709.3,  1087.0,  1298.7,  1546.6,  2061.6
+3    | ('osp', 'reduceQuality')                               |  1305.4 | (             --|*--           ),  723.2,  1075.5,  1305.4,  1529.3,  2073.1
+3    | ('osp', 'relaxSchedule')                               |  1306.6 | (             --|*--           ),  717.3,  1070.4,  1306.6,  1547.2,  2050.7
+3    | ('osp', 'doNothing')                                   |  1307.8 | (             --|*--           ),  767.3,  1094.8,  1307.8,  1540.6,  2039.6
+3    | ('osp', 'perfectTeam')                                 |  1311.8 | (             --|*--           ),  725.1,  1083.9,  1311.8,  1536.4,  2096.4
+4    | ('osp', 'improvePlatformandPersonnel')                 |  1426.5 | (               |--*--         ),  806.2,  1201.1,  1426.5,  1687.6,  2127.4
+
+####  osp2   ################################################## 
+
+rank | rx                                                      | median  |                                                                             
+==== | ==                                                      | ======= |                                                                             
+1    | ('osp2', 'easyTaskExtendDeadline')                      |    49.0 | (*              |              ),   32.9,    41.4,    49.0,    56.1,    64.9
+2    | ('osp2', 'reduceFunctionality')                         |   346.2 | (       -*-     |              ),  227.8,   290.6,   346.2,   399.5,   477.3
+3    | ('osp2', 'improvePrecendentnessDevelopmentFlexibility') |   744.5 | (               | ---*--       ),  515.3,   665.5,   785.1,   907.7,  1108.5
+3    | ('osp2', 'improvePlatformandPersonnel')                 |   752.9 | (               |---*--        ),  515.3,   636.3,   752.9,   874.1,  1013.9
+3    | ('osp2', 'perfectTeam')                                 |   762.0 | (               |---*--        ),  517.7,   649.4,   762.0,   876.8,  1013.9
+3    | ('osp2', 'improveProcessMaturity')                      |   778.1 | (               |----*--       ),  515.3,   652.3,   778.1,   893.3,  1065.5
+3    | ('osp2', 'doNothing')                                   |   785.2 | (               | ---*--       ),  517.7,   672.2,   785.2,   920.4,  1108.5
+3    | ('osp2', 'reduceQuality')                               |   792.4 | (               | ---*--       ),  515.3,   670.2,   792.4,   923.6,  1117.9
+3    | ('osp2', 'improvePersonnel')                            |   795.1 | (               | ---*--       ),  515.3,   681.0,   795.1,   917.5,  1093.2
+3    | ('osp2', 'improveToolsTechniquesPlatform')              |   797.9 | (               | ---*---      ),  517.7,   671.9,   797.9,   926.6,  1131.3
+3    | ('osp2', 'relaxSchedule')                               |   799.8 | (               | ---*---      ),  517.7,   681.0,   799.8,   925.6,  1131.3
+3    | ('osp2', 'increaseArchitecturalAnalysisRiskResolution') |   803.9 | (               | ---*--       ),  523.4,   678.5,   803.9,   920.4,  1139.4
+3    | ('osp2', 'improveTeam')                                 |   811.3 | (               | ----*--      ),  515.3,   685.4,   811.3,   934.3,  1123.8
+3    | ('osp2', 'perfectProduct')                              |   813.8 | (               | ----*--      ),  515.3,   682.1,   813.8,   932.0,  1138.9
+
+####  anything   ################################################## 
+
+rank | rx                                                          | median  |                                                                             
+==== | ==                                                          | ======= |                                                                             
+1    | ('anything', 'easyTaskExtendDeadline')                      |   435.0 | (*              |              ),    0.6,   195.9,   435.0,   699.8,  1295.5
+2    | ('anything', 'reduceFunctionality')                         |  3489.6 | ( -*-           |              ),    2.9,  1568.2,  3489.6,  5785.5, 11923.2
+3    | ('anything', 'perfectTeam')                                 |  5314.9 | (  ---*--       |              ),    6.9,  2875.8,  6901.2, 11709.4, 24511.0
+3    | ('anything', 'improvePrecendentnessDevelopmentFlexibility') |  6216.0 | (  --*--        |              ),   11.2,  2672.1,  6216.0, 10181.6, 19649.9
+3    | ('anything', 'improvePlatformandPersonnel')                 |  6397.7 | (  ---*-        |              ),    6.9,  2833.2,  6397.7, 10383.8, 18213.1
+3    | ('anything', 'increaseArchitecturalAnalysisRiskResolution') |  6461.2 | (  ---*--       |              ),   11.4,  2689.5,  6461.2, 10946.9, 21735.1
+3    | ('anything', 'improvePersonnel')                            |  7098.4 | (  ---*--       |              ),    7.3,  2903.1,  7098.4, 11944.2, 24230.3
+3    | ('anything', 'improveTeam')                                 |  7150.7 | (  ---*---      |              ),   25.7,  3033.5,  7150.7, 12385.0, 26199.1
+3    | ('anything', 'improveProcessMaturity')                      |  7257.0 | (  ---*--       |              ),    7.1,  2866.6,  7257.0, 11682.8, 22693.8
+3    | ('anything', 'reduceQuality')                               |  7353.1 | (  ---*---      |              ),    7.0,  2951.8,  7353.1, 12834.4, 27127.3
+3    | ('anything', 'improveToolsTechniquesPlatform')              |  7434.2 | (  ---*---      |              ),    7.2,  3145.8,  7434.2, 13063.2, 26244.6
+3    | ('anything', 'relaxSchedule')                               |  8147.1 | (  ----*---     |              ),    7.0,  3400.5,  8147.1, 14142.0, 28730.5
+3    | ('anything', 'doNothing')                                   |  8208.4 | (  ----*---     |              ),    7.1,  3448.6,  8208.4, 13687.1, 27640.6
+4    | ('anything', 'perfectProduct')                              |  8883.8 | (   ---*----    |              ),   12.0,  3764.5,  8883.8, 15013.8, 31611.6

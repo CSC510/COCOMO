@@ -24,10 +24,11 @@ def _sample1():
   sample(projects=[flight,anything]) 
  
 PROJECTS  = [flight,ground,osp,osp2,anything]
+
 TREATMENTS= [doNothing, improvePersonnel, improveToolsTechniquesPlatform,
              improvePrecendentnessDevelopmentFlexibility, 
              increaseArchitecturalAnalysisRiskResolution, relaxSchedule,
-             improveProcessMaturity, reduceFunctionality]
+             improveProcessMaturity, reduceFunctionality,improveTeam,reduceQuality,perfectTeam,perfectProduct,easyTaskExtendDeadline,improvePlatformandPersonnel]
 
 @go
 def _efforts():

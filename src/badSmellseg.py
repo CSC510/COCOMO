@@ -13,10 +13,10 @@ from badSmells import *
  
 PROJECTS  = [flight,ground,osp,osp2,anything]
 TREATMENTS= [doNothing, improvePersonnel, improveToolsTechniquesPlatform,
-             improvePrecendentnessDevelopmentFlexibility, 
+             improvePrecendentnessDevelopmentFlexibility,
              increaseArchitecturalAnalysisRiskResolution, relaxSchedule,
-             improveProcessMaturity, reduceFunctionality]
-             
+             improveProcessMaturity, reduceFunctionality,improveTeam,reduceQuality,perfectTeam,perfectProduct,easyTaskExtendDeadline,improvePlatformandPersonnel]
+            
  
 @go
 def _badSmells():
@@ -36,7 +36,7 @@ def _whatStinks():
 @go
 def _badSmellsTreated():
   rseed(1)
-  for project in [anything]:
+  for project in [osp]:
     print("\n#### ",project.__name__," ","#"*50,"\n")
     sample(projects=[project],treatments=TREATMENTS,score=badSmell)
 

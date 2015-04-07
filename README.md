@@ -137,8 +137,53 @@ From the table we know that the programmers are of low capability, while require
 ####Smells
 <img src=smell.png />
 
+	####  osp   ################################################## 
+
+	rank | rx                                                     | median  |                                                                             
+	==== | ==                                                     | ======= |                                                                             
+	1    | ('osp', 'improvePlatformandPersonnel')                 |    21.0 | (     ---*--    |              ),    8.0,    16.0,    22.0,    28.0,    40.0
+	1    | ('osp', 'improveToolsTechniquesPlatform')              |    22.0 | (     ---*--    |              ),    8.0,    16.0,    22.0,    27.0,    39.0
+	1    | ('osp', 'reduceQuality')                               |    22.0 | (     ---*---   |              ),    8.0,    17.0,    22.0,    29.0,    41.0
+	2    | ('osp', 'easyTaskExtendDeadline')                      |    24.0 | (      ----*--- |              ),    8.0,    19.0,    25.0,    32.0,    48.0
+	2    | ('osp', 'doNothing')                                   |    25.0 | (      ----*--- |              ),    8.0,    19.0,    25.0,    33.0,    49.0
+	2    | ('osp', 'improvePrecendentnessDevelopmentFlexibility') |    25.0 | (      ----*--- |              ),    8.0,    19.0,    25.0,    32.0,    49.0
+	2    | ('osp', 'increaseArchitecturalAnalysisRiskResolution') |    25.0 | (      ----*--- |              ),    9.0,    19.0,    25.0,    32.0,    49.0
+	2    | ('osp', 'reduceFunctionality')                         |    25.0 | (      ----*--- |              ),    8.0,    19.0,    25.0,    33.0,    47.0
+	2    | ('osp', 'improveTeam')                                 |    25.0 | (      ----*--- |              ),    8.0,    19.0,    25.0,    32.0,    48.0
+	2    | ('osp', 'perfectTeam')                                 |    25.0 | (      ----*--- |              ),    8.0,    19.0,    25.0,    32.0,    49.0
+	2    | ('osp', 'perfectProduct')                              |    25.0 | (       ---*--- |              ),   12.0,    20.0,    25.0,    32.0,    45.0
+	2    | ('osp', 'improvePersonnel')                            |    26.0 | (      ----*--- |              ),    8.0,    19.0,    26.0,    33.0,    50.0
+	2    | ('osp', 'relaxSchedule')                               |    26.0 | (       ---*--- |              ),    8.0,    20.0,    26.0,    33.0,    50.0
+	2    | ('osp', 'improveProcessMaturity')                      |    26.0 | (       ---*--- |              ),    8.0,    20.0,    26.0,    32.0,    49.0
+	
+	
+	
+	
+
 ####Effort
 <img src=effort.png/>
+
+	####  osp   ################################################## 
+
+	rank | rx                                                     | median  |                                                                             
+	==== | ==                                                     | ======= |                                                                             
+	1    | ('osp', 'easyTaskExtendDeadline')                      |    62.3 | (*              |              ),   38.1,    51.8,    62.3,    71.9,    89.3
+	2    | ('osp', 'reduceFunctionality')                         |   522.3 | (     -*        |              ),  286.9,   434.8,   522.3,   608.3,   792.9
+	3    | ('osp', 'improvePrecendentnessDevelopmentFlexibility') |  1210.5 | (             --|*--           ),  691.0,  1072.6,  1285.7,  1522.3,  2042.6
+	3    | ('osp', 'improveToolsTechniquesPlatform')              |  1261.3 | (             --|*-            ),  705.9,  1057.3,  1261.3,  1492.8,  1992.3
+	3    | ('osp', 'improveTeam')                                 |  1267.7 | (             --|*--           ),  749.1,  1088.5,  1267.7,  1517.3,  2036.7
+	3    | ('osp', 'perfectProduct')                              |  1277.1 | (             --|*--           ),  727.6,  1068.6,  1277.1,  1518.6,  2075.2
+	3    | ('osp', 'increaseArchitecturalAnalysisRiskResolution') |  1298.4 | (             --|*--           ),  691.0,  1087.6,  1298.4,  1539.7,  2039.6
+	3    | ('osp', 'improvePersonnel')                            |  1298.6 | (             --|*--           ),  712.6,  1085.8,  1298.6,  1539.3,  2105.1
+	3    | ('osp', 'improveProcessMaturity')                      |  1298.7 | (             --|*--           ),  709.3,  1087.0,  1298.7,  1546.6,  2061.6
+	3    | ('osp', 'reduceQuality')                               |  1305.4 | (             --|*--           ),  723.2,  1075.5,  1305.4,  1529.3,  2073.1
+	3    | ('osp', 'relaxSchedule')                               |  1306.6 | (             --|*--           ),  717.3,  1070.4,  1306.6,  1547.2,  2050.7
+	3    | ('osp', 'doNothing')                                   |  1307.8 | (             --|*--           ),  767.3,  1094.8,  1307.8,  1540.6,  2039.6
+	3    | ('osp', 'perfectTeam')                                 |  1311.8 | (             --|*--           ),  725.1,  1083.9,  1311.8,  1536.4,  2096.4
+	4    | ('osp', 'improvePlatformandPersonnel')                 |  1426.5 | (               |--*--         ),  806.2,  1201.1,  1426.5,  1687.6,  2127.4
+
+
+
 - As you can see the Treatment perfectTeam improved the efforts but worse the bad smells.
 - As you can see the Treatment easyTaskExtendDeadline improved the badsmells but worse the effort.	
 - As you can see the Treatment improvePlatformandPersonnel both improved the bad smells and the effort

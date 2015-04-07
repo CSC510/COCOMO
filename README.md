@@ -1,4 +1,5 @@
-#	Theory 1: COCOMO
+#Homework 3
+##	Theory 1: COCOMO
   -	List 1: 
     -	Prec: have we done this before?
       <br>Prec measures the experience with similar projects.
@@ -70,7 +71,7 @@
       <br> We can manage our timetable to make sure more issues are solved in the earlier phases of development, so that Sced will increase.
 
 	
-#Theory 2: Treatments (management actions)
+##Theory 2: Treatments (management actions)
 
         @rx
         def improvePersonnel(): return dict(
@@ -85,20 +86,20 @@ Improve team cohesion such as running some team activities to build team spirits
         def relaxSchedule(): return dict(sced = [5])
 Postpone the original schedule or just give more time at the planning phase of the project, which will relax the tight schedule.
   
-#	Projects
-##	Difference between flight and ground
+##	Projects
+###	Difference between flight and ground
 
 - Difference 1: the kloc in flight is from 7 to 418 while the kloc in ground is from 11 to 392
 - Difference 2: the cplx in flight is [3,4,5,6] while in ground is [1,2,3,4]
 - Difference 3:the rely in flight is [3,4,5] while in ground is [1,2,3,4]
 
-##	Difference between osp and osp2 
+###	Difference between osp and osp2 
 
 - Difference 1: the prec in osp is [1,2] while in osp2 is [3,4,5]
 -	Difference 2: the tool in osp is [2,3] while in osp2 is [5]
 -	Difference 3:the site in osp is [3] while in osp2 is [6]
 
-# 	Bad Smells
+## 	Bad Smells
 
         Stink[('sced','rely')] =
         [[0,0,0,1,2,0],
@@ -129,14 +130,14 @@ From the table we can see that the time schedule is very tight, while the analys
 From the table we know that the programmers are of low capability, while required reliance is high, therefore a software failure is only at the corner.
 
 
-# Practice
+## Practice
 
-##Result
+###Result
 
-###Smells
+####Smells
 <img src=smell.png />
 
-###Effort
+####Effort
 <img src=effort.png/>
 - As you can see the Treatment perfectTeam improved the efforts but worse the bad smells.
 - As you can see the Treatment easyTaskExtendDeadline improved the badsmells but worse the effort.	

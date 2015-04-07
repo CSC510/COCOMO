@@ -134,10 +134,10 @@ From the table we know that the programmers are of low capability, while require
 ##Result
 
 ###Smells
-
+<img src=smell.png />
 
 ###Effort
-
+<img src=effort.png/>
 - As you can see the Treatment perfectTeam improved the efforts but worse the bad smells.
 - As you can see the Treatment easyTaskExtendDeadline improved the badsmells but worse the effort.	
 - As you can see the Treatment improvePlatformandPersonnel both improved the bad smells and the effort
